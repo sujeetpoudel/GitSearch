@@ -1,7 +1,7 @@
 //
 //  NetworkManager.swift
 //
-//  Created by Chanappa on 23/08/19.
+//  Created by Sujeet on 23/08/19.
 //
 
 import Foundation

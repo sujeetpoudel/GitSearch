@@ -2,8 +2,8 @@
 //  GitUserDetailController.swift
 //  GitSearch
 //
-//  Created by Chanappa on 10/10/19.
-//  Copyright © 2019 Chanappa. All rights reserved.
+//  Created by Sujeet on 10/10/19.
+//  Copyright © 2019 Sujeet. All rights reserved.
 //
 
 import UIKit
@@ -41,8 +41,6 @@ class GitUserDetailController: UIViewController {
     var profileURL: String?
     var repoURL: String?
     var userData: GitUser?
-    var aryRepo: [RepoModelElement] = []
-    var filterRepo: [RepoModelElement] = []
     var repoArray : [RepoModel] = []
     var isSearching = false
     

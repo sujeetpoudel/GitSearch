@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  GitSearch
 //
-//  Created by Chanappa on 10/10/19.
-//  Copyright © 2019 Chanappa. All rights reserved.
+//  Created by Sujeet on 10/10/19.
+//  Copyright © 2019 Sujeet. All rights reserved.
 //
 
 import UIKit

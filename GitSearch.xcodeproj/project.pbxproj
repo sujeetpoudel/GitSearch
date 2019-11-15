@@ -20,7 +20,6 @@
 		3DFC617E234F7FB700F76F55 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC617D234F7FB700F76F55 /* CommonExtensions.swift */; };
 		3DFC6180234F87BA00F76F55 /* AsyncDownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC617F234F87BA00F76F55 /* AsyncDownloadingImageView.swift */; };
 		3DFC6182234F8C4000F76F55 /* GitUserDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC6181234F8C4000F76F55 /* GitUserDetailController.swift */; };
-		3DFC6184234F977700F76F55 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC6183234F977700F76F55 /* RepoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		3DFC617D234F7FB700F76F55 /* CommonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
 		3DFC617F234F87BA00F76F55 /* AsyncDownloadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncDownloadingImageView.swift; sourceTree = "<group>"; };
 		3DFC6181234F8C4000F76F55 /* GitUserDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserDetailController.swift; sourceTree = "<group>"; };
-		3DFC6183234F977700F76F55 /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				3DFC6175234F7C4D00F76F55 /* UserModel.swift */,
-				3DFC6183234F977700F76F55 /* RepoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,7 +191,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DFC6184234F977700F76F55 /* RepoModel.swift in Sources */,
 				3DFC615A234F5F7600F76F55 /* AppDelegate.swift in Sources */,
 				3DFC615C234F5F7600F76F55 /* SceneDelegate.swift in Sources */,
 				3DFC617E234F7FB700F76F55 /* CommonExtensions.swift in Sources */,
@@ -356,7 +352,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AarshParekh.GitSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SujeetPoudel.GitSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -375,7 +371,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AarshParekh.GitSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SujeetPoudel.GitSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

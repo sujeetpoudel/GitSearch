@@ -1,8 +1,4 @@
-//
-//  AsyncDownloadingImageView.swift
-//
-//  Created by Chanappa on 22/08/19.
-//
+
 
 import UIKit
 
