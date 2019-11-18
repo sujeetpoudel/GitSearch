@@ -127,11 +127,6 @@ private extension GitUserDetailController {
                 for index in 0..<json.count {
                     let jsonDict = json[index] as! NSDictionary
                     var repoModel = RepoModel()
-                    
-                    print(jsonDict["name"]!)
-                    print(jsonDict["forks_count"]!)
-                    print(jsonDict["stargazers_count"]!)
-                    
                     repoModel.full_name = jsonDict["name"]! as! String
                     repoModel.forks_count = String(describing: jsonDict["forks_count"]!)
                     repoModel.stargazers_count = String(describing: jsonDict["forks_count"]!)
